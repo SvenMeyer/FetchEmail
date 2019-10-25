@@ -8,7 +8,7 @@ import getpass
 # https://stackoverflow.com/questions/2230037/how-to-fetch-an-email-body-using-imaplib-in-python
 
 username = "crashlytics@svenmeyer.com"
-password = "crashlytics"
+password = input("Password :")
 host = "imap.1und1.de"
 port = 993
 '''
